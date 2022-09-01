@@ -1,0 +1,101 @@
+@font-face {
+  font-family: "Heebo";
+  src: url("/src/assets/fonts/heebo.regular.ttf");
+}
+
+.containerPrincipal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.containerInterno {
+  max-width: 1000px;
+  margin: 100px 148px 0px;
+  display: flex;
+  gap: 100px;
+}
+
+h1 {
+  color: white;
+}
+
+.header {
+  display: flex;
+  justify-content: end;
+  padding-right: 60px;
+  padding-left: 60px;
+  gap: 33px;
+}
+
+.headerLink {
+  font-family: "Heebo";
+  font-weight: 500;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 29px;
+  text-align: right;
+  color: white;
+  margin: 15px 0px;
+  text-decoration: none;
+}
+
+.headerLink:hover {
+  color: #aaa;
+  cursor: pointer;
+}
+
+.introText {
+  // height: 120px;
+  // width: 430px;
+  font-family: "Heebo";
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: 0px;
+  margin: 0;
+  text-align: left;
+  color: #f2f2f2;
+}
+
+.descriptionResume {
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  // width: 497px;
+  // height: 66px;
+  color: #bdbdbd;
+  margin: 40px 0px;
+}
+
+.btnDownloadResume {
+  margin: 10px 0px;
+  width: 208px;
+  height: 47px;
+  background: #2f80ed;
+  border-radius: 2px;
+  border: none;
+  cursor: pointer;
+
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 29px;
+  color: #ffffff;
+}
+
+.btnDownloadResume:active {
+  transform: translate(1px, 1px);
+}
+
+.profilePicture {
+  width: 243px;
+  height: 243px;
+  border-radius: 100%;
+}

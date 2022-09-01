@@ -331,6 +331,26 @@ ansi-styles@^3.2.1:
   dependencies:
     color-convert "^1.9.0"
 
+anymatch@~3.1.2:
+  version "3.1.2"
+  resolved "http://atf.intranet.bb.com.br:80/artifactory/api/npm/bb-npm-repo/anymatch/-/anymatch-3.1.2.tgz#c0557c096af32f106198f4f4e2a383537e378716"
+  integrity sha1-wFV8CWrzLxBhmPT04qODU343hxY=
+  dependencies:
+    normalize-path "^3.0.0"
+    picomatch "^2.0.4"
+
+binary-extensions@^2.0.0:
+  version "2.2.0"
+  resolved "http://atf.intranet.bb.com.br:80/artifactory/api/npm/bb-npm-repo/binary-extensions/-/binary-extensions-2.2.0.tgz#75f502eeaf9ffde42fc98829645be4ea76bd9e2d"
+  integrity sha1-dfUC7q+f/eQvyYgpZFvk6na9ni0=
+
+braces@~3.0.2:
+  version "3.0.2"
+  resolved "http://atf.intranet.bb.com.br:80/artifactory/api/npm/bb-npm-repo/braces/-/braces-3.0.2.tgz#3454e1a462ee8d599e236df336cd9ea4f8afe107"
+  integrity sha1-NFThpGLujVmeI23zNs2epPiv4Qc=
+  dependencies:
+    fill-range "^7.0.1"
+
 browserslist@^4.20.2:
   version "4.21.3"
   resolved "http://atf.intranet.bb.com.br:80/artifactory/api/npm/bb-npm-repo/browserslist/-/browserslist-4.21.3.tgz#5df277694eb3c48bc5c4b05af3e8b7e09c5a6d1a"
@@ -354,6 +374,21 @@ chalk@^2.0.0:
     ansi-styles "^3.2.1"
     escape-string-regexp "^1.0.5"
     supports-color "^5.3.0"
+
+"chokidar@>=3.0.0 <4.0.0":
+  version "3.5.3"
+  resolved "http://atf.intranet.bb.com.br:80/artifactory/api/npm/bb-npm-repo/chokidar/-/chokidar-3.5.3.tgz#1cf37c8707b932bd1af1ae22c0432e2acd1903bd"
+  integrity sha1-HPN8hwe5Mr0a8a4iwEMuKs0ZA70=
+  dependencies:
+    anymatch "~3.1.2"
+    braces "~3.0.2"
+    glob-parent "~5.1.2"
+    is-binary-path "~2.1.0"
+    is-glob "~4.0.1"
+    normalize-path "~3.0.0"
+    readdirp "~3.6.0"
+  optionalDependencies:
+    fsevents "~2.3.2"
 
 color-convert@^1.9.0:
   version "1.9.3"
@@ -528,6 +563,13 @@ escape-string-regexp@^1.0.5:
   resolved "http://atf.intranet.bb.com.br:80/artifactory/api/npm/bb-npm-repo/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz#1b61c0562190a8dff6ae3bb2cf0200ca130b86d4"
   integrity sha1-G2HAViGQqN/2rjuyzwIAyhMLhtQ=
 
+fill-range@^7.0.1:
+  version "7.0.1"
+  resolved "http://atf.intranet.bb.com.br:80/artifactory/api/npm/bb-npm-repo/fill-range/-/fill-range-7.0.1.tgz#1919a6a7c75fe38b2c7c77e5198535da9acdda40"
+  integrity sha1-GRmmp8df44ssfHflGYU12prN2kA=
+  dependencies:
+    to-regex-range "^5.0.1"
+
 fsevents@~2.3.2:
   version "2.3.2"
   resolved "http://atf.intranet.bb.com.br:80/artifactory/api/npm/bb-npm-repo/fsevents/-/fsevents-2.3.2.tgz#8a526f78b8fdf4623b709e0b975c52c24c02fd1a"
@@ -542,6 +584,13 @@ gensync@^1.0.0-beta.2:
   version "1.0.0-beta.2"
   resolved "http://atf.intranet.bb.com.br:80/artifactory/api/npm/bb-npm-repo/gensync/-/gensync-1.0.0-beta.2.tgz#32a6ee76c3d7f52d46b2b1ae5d93fea8580a25e0"
   integrity sha1-MqbudsPX9S1GsrGuXZP+qFgKJeA=
+
+glob-parent@~5.1.2:
+  version "5.1.2"
+  resolved "http://atf.intranet.bb.com.br:80/artifactory/api/npm/bb-npm-repo/glob-parent/-/glob-parent-5.1.2.tgz#869832c58034fe68a4093c17dc15e8340d8401c4"
+  integrity sha1-hpgyxYA0/mikCTwX3BXoNA2EAcQ=
+  dependencies:
+    is-glob "^4.0.1"
 
 globals@^11.1.0:
   version "11.12.0"
@@ -560,12 +609,41 @@ has@^1.0.3:
   dependencies:
     function-bind "^1.1.1"
 
+immutable@^4.0.0:
+  version "4.1.0"
+  resolved "http://atf.intranet.bb.com.br:80/artifactory/api/npm/bb-npm-repo/immutable/-/immutable-4.1.0.tgz#f795787f0db780183307b9eb2091fcac1f6fafef"
+  integrity sha1-95V4fw23gBgzB7nrIJH8rB9vr+8=
+
+is-binary-path@~2.1.0:
+  version "2.1.0"
+  resolved "http://atf.intranet.bb.com.br:80/artifactory/api/npm/bb-npm-repo/is-binary-path/-/is-binary-path-2.1.0.tgz#ea1f7f3b80f064236e83470f86c09c254fb45b09"
+  integrity sha1-6h9/O4DwZCNug0cPhsCcJU+0Wwk=
+  dependencies:
+    binary-extensions "^2.0.0"
+
 is-core-module@^2.9.0:
   version "2.10.0"
   resolved "http://atf.intranet.bb.com.br:80/artifactory/api/npm/bb-npm-repo/is-core-module/-/is-core-module-2.10.0.tgz#9012ede0a91c69587e647514e1d5277019e728ed"
   integrity sha1-kBLt4KkcaVh+ZHUU4dUncBnnKO0=
   dependencies:
     has "^1.0.3"
+
+is-extglob@^2.1.1:
+  version "2.1.1"
+  resolved "http://atf.intranet.bb.com.br:80/artifactory/api/npm/bb-npm-repo/is-extglob/-/is-extglob-2.1.1.tgz#a88c02535791f02ed37c76a1b9ea9773c833f8c2"
+  integrity sha1-qIwCU1eR8C7TfHahueqXc8gz+MI=
+
+is-glob@^4.0.1, is-glob@~4.0.1:
+  version "4.0.3"
+  resolved "http://atf.intranet.bb.com.br:80/artifactory/api/npm/bb-npm-repo/is-glob/-/is-glob-4.0.3.tgz#64f61e42cbbb2eec2071a9dac0b28ba1e65d5084"
+  integrity sha1-ZPYeQsu7LuwgcanawLKLoeZdUIQ=
+  dependencies:
+    is-extglob "^2.1.1"
+
+is-number@^7.0.0:
+  version "7.0.0"
+  resolved "http://atf.intranet.bb.com.br:80/artifactory/api/npm/bb-npm-repo/is-number/-/is-number-7.0.0.tgz#7535345b896734d5f80c4d06c50955527a14f12b"
+  integrity sha1-dTU0W4lnNNX4DE0GxQlVUnoU8Ss=
 
 "js-tokens@^3.0.0 || ^4.0.0", js-tokens@^4.0.0:
   version "4.0.0"
@@ -611,6 +689,11 @@ node-releases@^2.0.6:
   resolved "http://atf.intranet.bb.com.br:80/artifactory/api/npm/bb-npm-repo/node-releases/-/node-releases-2.0.6.tgz#8a7088c63a55e493845683ebf3c828d8c51c5503"
   integrity sha1-inCIxjpV5JOEVoPr88go2MUcVQM=
 
+normalize-path@^3.0.0, normalize-path@~3.0.0:
+  version "3.0.0"
+  resolved "http://atf.intranet.bb.com.br:80/artifactory/api/npm/bb-npm-repo/normalize-path/-/normalize-path-3.0.0.tgz#0dcd69ff23a1c9b11fd0978316644a0388216a65"
+  integrity sha1-Dc1p/yOhybEf0JeDFmRKA4ghamU=
+
 path-parse@^1.0.7:
   version "1.0.7"
   resolved "http://atf.intranet.bb.com.br:80/artifactory/api/npm/bb-npm-repo/path-parse/-/path-parse-1.0.7.tgz#fbc114b60ca42b30d9daf5858e4bd68bbedb6735"
@@ -620,6 +703,11 @@ picocolors@^1.0.0:
   version "1.0.0"
   resolved "http://atf.intranet.bb.com.br:80/artifactory/api/npm/bb-npm-repo/picocolors/-/picocolors-1.0.0.tgz#cb5bdc74ff3f51892236eaf79d68bc44564ab81c"
   integrity sha1-y1vcdP8/UYkiNur3nWi8RFZKuBw=
+
+picomatch@^2.0.4, picomatch@^2.2.1:
+  version "2.3.1"
+  resolved "http://atf.intranet.bb.com.br:80/artifactory/api/npm/bb-npm-repo/picomatch/-/picomatch-2.3.1.tgz#3ba3833733646d9d3e4995946c1365a67fb07a42"
+  integrity sha1-O6ODNzNkbZ0+SZWUbBNlpn+wekI=
 
 postcss@^8.4.16:
   version "8.4.16"
@@ -650,6 +738,13 @@ react@^18.2.0:
   dependencies:
     loose-envify "^1.1.0"
 
+readdirp@~3.6.0:
+  version "3.6.0"
+  resolved "http://atf.intranet.bb.com.br:80/artifactory/api/npm/bb-npm-repo/readdirp/-/readdirp-3.6.0.tgz#74a370bd857116e245b29cc97340cd431a02a6c7"
+  integrity sha1-dKNwvYVxFuJFspzJc0DNQxoCpsc=
+  dependencies:
+    picomatch "^2.2.1"
+
 resolve@^1.22.1:
   version "1.22.1"
   resolved "http://atf.intranet.bb.com.br:80/artifactory/api/npm/bb-npm-repo/resolve/-/resolve-1.22.1.tgz#27cb2ebb53f91abb49470a928bba7558066ac177"
@@ -671,6 +766,15 @@ safe-buffer@~5.1.1:
   resolved "http://atf.intranet.bb.com.br:80/artifactory/api/npm/bb-npm-repo/safe-buffer/-/safe-buffer-5.1.2.tgz#991ec69d296e0313747d59bdfd2b745c35f8828d"
   integrity sha1-mR7GnSluAxN0fVm9/St0XDX4go0=
 
+sass@^1.54.7:
+  version "1.54.7"
+  resolved "http://atf.intranet.bb.com.br:80/artifactory/api/npm/bb-npm-repo/sass/-/sass-1.54.7.tgz#a93fb1690472b161fab8f4ab34a66a0f3000c478"
+  integrity sha1-qT+xaQRysWH6uPSrNKZqDzAAxHg=
+  dependencies:
+    chokidar ">=3.0.0 <4.0.0"
+    immutable "^4.0.0"
+    source-map-js ">=0.6.2 <2.0.0"
+
 scheduler@^0.23.0:
   version "0.23.0"
   resolved "http://atf.intranet.bb.com.br:80/artifactory/api/npm/bb-npm-repo/scheduler/-/scheduler-0.23.0.tgz#ba8041afc3d30eb206a487b6b384002e4e61fdfe"
@@ -683,7 +787,7 @@ semver@^6.3.0:
   resolved "http://atf.intranet.bb.com.br:80/artifactory/api/npm/bb-npm-repo/semver/-/semver-6.3.0.tgz#ee0a64c8af5e8ceea67687b133761e1becbd1d3d"
   integrity sha1-7gpkyK9ejO6mdoexM3YeG+y9HT0=
 
-source-map-js@^1.0.2:
+"source-map-js@>=0.6.2 <2.0.0", source-map-js@^1.0.2:
   version "1.0.2"
   resolved "http://atf.intranet.bb.com.br:80/artifactory/api/npm/bb-npm-repo/source-map-js/-/source-map-js-1.0.2.tgz#adbc361d9c62df380125e7f161f71c826f1e490c"
   integrity sha1-rbw2HZxi3zgBJefxYfccgm8eSQw=
@@ -709,6 +813,13 @@ to-fast-properties@^2.0.0:
   version "2.0.0"
   resolved "http://atf.intranet.bb.com.br:80/artifactory/api/npm/bb-npm-repo/to-fast-properties/-/to-fast-properties-2.0.0.tgz#dc5e698cbd079265bc73e0377681a4e4e83f616e"
   integrity sha1-3F5pjL0HkmW8c+A3doGk5Og/YW4=
+
+to-regex-range@^5.0.1:
+  version "5.0.1"
+  resolved "http://atf.intranet.bb.com.br:80/artifactory/api/npm/bb-npm-repo/to-regex-range/-/to-regex-range-5.0.1.tgz#1648c44aae7c8d988a326018ed72f5b4dd0392e4"
+  integrity sha1-FkjESq58jZiKMmAY7XL1tN0DkuQ=
+  dependencies:
+    is-number "^7.0.0"
 
 typescript@^4.6.4:
   version "4.8.2"
