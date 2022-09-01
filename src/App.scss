@@ -12,7 +12,7 @@
   height: 100%;
 }
 
-.containerInterno {
+.homeBannerContainer {
   max-width: 1000px;
   margin: 100px 148px 0px;
   display: flex;
@@ -24,8 +24,10 @@ h1 {
 }
 
 .header {
+  background-color: #0f315e;
   display: flex;
   justify-content: end;
+  padding: 27px 0px;
   padding-right: 60px;
   padding-left: 60px;
   gap: 33px;
@@ -39,7 +41,6 @@ h1 {
   line-height: 29px;
   text-align: right;
   color: white;
-  margin: 15px 0px;
   text-decoration: none;
 }
 
@@ -49,8 +50,6 @@ h1 {
 }
 
 .introText {
-  // height: 120px;
-  // width: 430px;
   font-family: "Heebo";
   font-size: 44px;
   font-weight: 700;
@@ -67,8 +66,6 @@ h1 {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  // width: 497px;
-  // height: 66px;
   color: #bdbdbd;
   margin: 40px 0px;
 }
@@ -94,8 +91,45 @@ h1 {
   transform: translate(1px, 1px);
 }
 
-.profilePicture {
+.profilePic {
   width: 243px;
   height: 243px;
   border-radius: 100%;
+}
+
+.postCardContainer {
+  display: flex;
+  max-width: 1000px;
+  margin: 0px 148px;
+}
+
+.textRecentPosts {
+  margin: 0;
+  color: #f2f2f2;
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 60px;
+  text-align: left;
+}
+
+.topPostCardContainer {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1000px;
+}
+
+.linkSmall {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: right;
+  align-self: center;
+  margin: 0;
+  color: #2f80ed;
+}
+
+.linkSmall:hover {
+  color: #1e549b;
 }

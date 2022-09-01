@@ -1,5 +1,5 @@
 import "./App.scss";
-import profilePicture from "./assets/images/wolf_head.png";
+import profileImage from "./assets/images/wolf_head.png";
 
 function App() {
   return (
@@ -16,9 +16,9 @@ function App() {
         </a>
       </header>
       <div className="containerPrincipal">
-        <div className="containerInterno">
+        <div className="homeBannerContainer">
           <div>
-            <h1 className="introText">Hi, I am Wolf, Creative Technologist</h1>
+            <h1 className="introText">Hi, I am Wolf, The Hungry Hunter</h1>
             <p className="descriptionResume">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Repudiandae dolor amet ab aliquid. Minima, unde! Illum maxime odio
@@ -28,11 +28,23 @@ function App() {
             <button className="btnDownloadResume">Download Resume</button>
           </div>
           <div>
-            <img
-              className="profilePicture"
-              src={profilePicture}
-              alt="Wolf Head"
-            />
+            <img className="profilePic" src={profileImage} alt="Wolf Head" />
+          </div>
+        </div>
+        <div className="postCardContainer">
+          <div>
+            <div className="topPostCardContainer">
+              <h3 className="textRecentPosts">Recent posts</h3>
+              <a className="headerLink linkSmall" href="/">
+                View all
+              </a>
+            </div>
+            <p className="descriptionResume">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Repudiandae dolor amet ab aliquid. Minima, unde! Illum maxime odio
+              quae porro commodi! Aspernatur repudiandae illo ex sed officiis
+              adipisci incidunt animi?
+            </p>
           </div>
         </div>
       </div>
