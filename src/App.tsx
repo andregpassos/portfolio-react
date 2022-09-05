@@ -3,6 +3,10 @@ import profileImage from "./assets/images/wolf_head.png";
 import dashboardImg from "./assets/images/dashboard.png";
 import womanImg from "./assets/images/woman.png";
 import charCursiveImg from "./assets/images/char_cursive.png";
+import fbLogo from "./assets/images/fb.png";
+import igLogo from "./assets/images/ig_30x30.png";
+import linkedinLogo from "./assets/images/Linkedin.png";
+import twitterLogo from "./assets/images/twitter.png";
 
 function App() {
   return (
@@ -48,7 +52,7 @@ function App() {
                   Making a design system from scratch
                 </h3>
                 <div className="textCard">
-                  <p className="dateCard">02 Sep 2022</p>
+                  <p className="dateCard">12 Feb 2020</p>
                   <p className="dateCard">|</p>
                   <p className="dateCard">Design, Pattern</p>
                 </div>
@@ -61,12 +65,12 @@ function App() {
               </div>
               <div className="card">
                 <h3 className="titleCard">
-                  Making a design system from scratch
+                  Creating pixel perfect icons in Figma
                 </h3>
                 <div className="textCard">
-                  <p className="dateCard">02 Sep 2022</p>
+                  <p className="dateCard">12 Feb 2020</p>
                   <p className="dateCard">|</p>
-                  <p className="dateCard">Design, Pattern</p>
+                  <p className="dateCard">Figma, Icon Design</p>
                 </div>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi
@@ -83,7 +87,9 @@ function App() {
           <div className="featuredWorkCard">
             <img className="dashboardImg" src={dashboardImg} />
             <div>
-              <h1 className="titleFeatWorkCard">Designing Dashboards</h1>
+              <a href="/" style={{ textDecoration: "none" }}>
+                <h1 className="titleFeatWorkCard">Designing Dashboards</h1>
+              </a>
               <div style={{ display: "flex", marginTop: "20px" }}>
                 <p className="yearCard">2020</p>
                 <p style={{ marginLeft: "20px", color: "#828282" }}>
@@ -100,13 +106,15 @@ function App() {
           </div>
           <div className="line"></div>
           <div className="featuredWorkCard">
-            <img className="dashboardImg" src={dashboardImg} />
+            <img className="dashboardImg" src={womanImg} />
             <div>
-              <h1 className="titleFeatWorkCard">Designing Dashboards</h1>
+              <a href="/" style={{ textDecoration: "none" }}>
+                <h1 className="titleFeatWorkCard">Vibrant Portraits of 2020</h1>
+              </a>
               <div style={{ display: "flex", marginTop: "20px" }}>
                 <p className="yearCard">2020</p>
                 <p style={{ marginLeft: "20px", color: "#828282" }}>
-                  Dashboard
+                  Illustration
                 </p>
               </div>
               <p style={{ marginTop: "20px" }}>
@@ -119,13 +127,15 @@ function App() {
           </div>
           <div className="line"></div>
           <div className="featuredWorkCard">
-            <img className="dashboardImg" src={dashboardImg} />
+            <img className="dashboardImg" src={charCursiveImg} />
             <div>
-              <h1 className="titleFeatWorkCard">Designing Dashboards</h1>
+              <a href="/" style={{ textDecoration: "none" }}>
+                <h1 className="titleFeatWorkCard">36 Days of Malayalam type</h1>
+              </a>
               <div style={{ display: "flex", marginTop: "20px" }}>
                 <p className="yearCard">2020</p>
                 <p style={{ marginLeft: "20px", color: "#828282" }}>
-                  Dashboard
+                  Typography
                 </p>
               </div>
               <p style={{ marginTop: "20px" }}>
@@ -136,6 +146,22 @@ function App() {
               </p>
             </div>
           </div>
+          <div className="line"></div>
+          <div className="footerContainer">
+            <a href="/">
+              <img src={fbLogo} alt="facebook" />
+            </a>
+            <a href="/">
+              <img src={igLogo} alt="instagram" />
+            </a>
+            <a href="/">
+              <img src={linkedinLogo} alt="linkedin" />
+            </a>
+            <a href="/">
+              <img src={twitterLogo} alt="twitter" />
+            </a>
+          </div>
+          <p className="copyrightText">Copyright ©2020 All rights reserved</p>
         </div>
       </div>
     </>
