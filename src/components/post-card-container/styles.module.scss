@@ -1,0 +1,65 @@
+.postCardContainer {
+  display: flex;
+  max-width: 800px;
+  margin: 0px 148px;
+}
+
+.textRecentPosts {
+  margin: 0;
+  color: #f2f2f2;
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 60px;
+  text-align: left;
+}
+
+.topPostCardContainer {
+  display: flex;
+  justify-content: space-between;
+  max-width: 800px;
+  margin-top: 30px;
+}
+
+.linkSmall {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: right;
+  align-self: center;
+  margin: 0;
+  color: #2f80ed;
+}
+
+.linkSmall:hover {
+  color: #1e549b;
+}
+
+.card {
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+}
+
+.titleCard {
+  margin: 0;
+  font-size: 26px;
+}
+
+.textCard {
+  display: flex;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  gap: 20px;
+}
+
+.cardsContainer {
+  width: 800px;
+  display: flex;
+  gap: 20px;
+}
+
+.dateCard {
+  font-size: 18px;
+}

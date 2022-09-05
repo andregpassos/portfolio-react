@@ -1,0 +1,43 @@
+.featuredWorksContainer {
+  width: 800px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.featuredWorkCard {
+  display: flex;
+  margin-top: 20px;
+  gap: 20px;
+}
+
+.dashboardImg {
+  height: 180px;
+  width: auto;
+}
+
+.titleFeatWorkCard {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  color: #2f80ed;
+}
+
+.yearCard {
+  background-color: #2f80ed;
+  border-radius: 15px;
+  text-align: center;
+  width: 62px;
+  font-family: "Heebo";
+  font-weight: 900;
+  font-size: 18px;
+}
+
+.spanYear {
+  margin-left: 30px;
+}
+
+.line {
+  height: 1px;
+  background: #555555;
+  margin-top: 20px;
+}

@@ -1,0 +1,24 @@
+.header {
+  background-color: #0f315e;
+  display: flex;
+  justify-content: end;
+  padding: 27px 0px;
+  padding-right: 60px;
+  padding-left: 60px;
+  gap: 33px;
+}
+
+.headerLink {
+  font-family: "Heebo";
+  font-weight: 500;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 29px;
+  text-align: right;
+  color: white;
+}
+
+.headerLink:hover {
+  color: #aaa;
+  cursor: pointer;
+}
